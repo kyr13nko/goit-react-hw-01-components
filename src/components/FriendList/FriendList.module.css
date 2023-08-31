@@ -1,19 +1,5 @@
-.friend-list {
-
-}
-
-.item {
-
-}
-
-.status {
-
-}
-
-.avatar {
-
-}
-
-.name {
-  
+.friendList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

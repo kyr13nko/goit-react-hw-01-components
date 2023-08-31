@@ -14,7 +14,7 @@
 
   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
 
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .title {
@@ -36,17 +36,18 @@
 .item {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
 
   width: calc(100% / 5);
 
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
-
-  padding: 20px 16px;
+  padding: 14px 16px;
 }
 
 .label {
+  color: #ffffff;
 }
 
 .percentage {
+  font-size: 24px;
+  color: #ffffff;
 }
